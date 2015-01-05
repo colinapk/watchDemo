@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>watchDemo WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>watchDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3B50C2BB1A5A3A9500D8605A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B50C2D01A5A3A9500D8605A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B50C2F31A5A3ACC00D8605A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
