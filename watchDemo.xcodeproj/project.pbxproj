@@ -16,11 +16,13 @@
 		3B50C2EB1A5A3ACC00D8605A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C2EA1A5A3ACC00D8605A /* InterfaceController.swift */; };
 		3B50C2ED1A5A3ACC00D8605A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C2EC1A5A3ACC00D8605A /* NotificationController.swift */; };
 		3B50C2EF1A5A3ACC00D8605A /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C2EE1A5A3ACC00D8605A /* GlanceController.swift */; };
-		3B50C2F11A5A3ACC00D8605A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C2F01A5A3ACC00D8605A /* Images.xcassets */; };
 		3B50C2F51A5A3ACC00D8605A /* watchDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C2F41A5A3ACC00D8605A /* watchDemo WatchKit App.app */; };
 		3B50C2FD1A5A3ACD00D8605A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C2FB1A5A3ACD00D8605A /* Interface.storyboard */; };
 		3B50C2FF1A5A3ACD00D8605A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C2FE1A5A3ACD00D8605A /* Images.xcassets */; };
 		3B50C3021A5A3ACD00D8605A /* watchDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B50C2E51A5A3ACC00D8605A /* watchDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B50C3301A5AA29300D8605A /* Just One Last Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C32F1A5AA29300D8605A /* Just One Last Dance.mp3 */; };
+		3B50C3331A5AA2AB00D8605A /* 你是我心爱的姑娘_汪峰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C3311A5AA2AB00D8605A /* 你是我心爱的姑娘_汪峰.mp3 */; };
+		3B50C3341A5AA2AB00D8605A /* Where Are We Now?_David.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C3321A5AA2AB00D8605A /* Where Are We Now?_David.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,11 +80,13 @@
 		3B50C2EA1A5A3ACC00D8605A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		3B50C2EC1A5A3ACC00D8605A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		3B50C2EE1A5A3ACC00D8605A /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
-		3B50C2F01A5A3ACC00D8605A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B50C2F41A5A3ACC00D8605A /* watchDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B50C2FA1A5A3ACD00D8605A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B50C2FC1A5A3ACD00D8605A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		3B50C2FE1A5A3ACD00D8605A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B50C32F1A5AA29300D8605A /* Just One Last Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Just One Last Dance.mp3"; sourceTree = "<group>"; };
+		3B50C3311A5AA2AB00D8605A /* 你是我心爱的姑娘_汪峰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你是我心爱的姑娘_汪峰.mp3"; sourceTree = "<group>"; };
+		3B50C3321A5AA2AB00D8605A /* Where Are We Now?_David.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Where Are We Now?_David.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +180,6 @@
 				3B50C2EA1A5A3ACC00D8605A /* InterfaceController.swift */,
 				3B50C2EC1A5A3ACC00D8605A /* NotificationController.swift */,
 				3B50C2EE1A5A3ACC00D8605A /* GlanceController.swift */,
-				3B50C2F01A5A3ACC00D8605A /* Images.xcassets */,
 				3B50C2E71A5A3ACC00D8605A /* Supporting Files */,
 			);
 			path = "watchDemo WatchKit Extension";
@@ -185,6 +188,9 @@
 		3B50C2E71A5A3ACC00D8605A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B50C3311A5AA2AB00D8605A /* 你是我心爱的姑娘_汪峰.mp3 */,
+				3B50C3321A5AA2AB00D8605A /* Where Are We Now?_David.mp3 */,
+				3B50C32F1A5AA29300D8605A /* Just One Last Dance.mp3 */,
 				3B50C2E81A5A3ACC00D8605A /* Info.plist */,
 				3B50C2E91A5A3ACC00D8605A /* PushNotificationPayload.apns */,
 			);
@@ -349,7 +355,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B50C2F11A5A3ACC00D8605A /* Images.xcassets in Resources */,
+				3B50C3341A5AA2AB00D8605A /* Where Are We Now?_David.mp3 in Resources */,
+				3B50C3301A5AA29300D8605A /* Just One Last Dance.mp3 in Resources */,
+				3B50C3331A5AA2AB00D8605A /* 你是我心爱的姑娘_汪峰.mp3 in Resources */,
 				3B50C2F51A5A3ACC00D8605A /* watchDemo WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,6 +657,7 @@
 				3B50C2DD1A5A3A9500D8605A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B50C2DE1A5A3A9500D8605A /* Build configuration list for PBXNativeTarget "watchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +666,7 @@
 				3B50C2E01A5A3A9500D8605A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B50C3031A5A3ACD00D8605A /* Build configuration list for PBXNativeTarget "watchDemo WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +675,7 @@
 				3B50C3051A5A3ACD00D8605A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B50C3061A5A3ACD00D8605A /* Build configuration list for PBXNativeTarget "watchDemo WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +684,7 @@
 				3B50C3081A5A3ACD00D8605A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

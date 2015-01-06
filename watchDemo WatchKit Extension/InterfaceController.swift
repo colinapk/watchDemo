@@ -12,6 +12,12 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var songCover: WKInterfaceImage!
+    var curSongIndex = 0
+    let audioFiles = ["你是我心爱的姑娘_汪峰.mp3","Where Are We Now?_David.mp3","Just One Last Dance.mp3"]
+    let covers = ["wangfeng","david","sarah"]
+    
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -28,4 +34,17 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func onButtonClicked() {
+        changeCurSong()
+        let imageName = covers[curSongIndex]
+        
+        self.songCover.setImageNamed(imageName)
+        
+    }
+    func changeCurSong(){
+        
+        if(++curSongIndex > 2){
+            curSongIndex = 0
+        }
+    }
 }
