@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B5024471A5BD3BA0014B64C /* DemoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5024461A5BD3BA0014B64C /* DemoPlayer.swift */; };
 		3B50C2C21A5A3A9500D8605A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C2C11A5A3A9500D8605A /* AppDelegate.swift */; };
 		3B50C2C41A5A3A9500D8605A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C2C31A5A3A9500D8605A /* ViewController.swift */; };
 		3B50C2C71A5A3A9500D8605A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B50C2C51A5A3A9500D8605A /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B5024461A5BD3BA0014B64C /* DemoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPlayer.swift; sourceTree = "<group>"; };
 		3B50C2BC1A5A3A9500D8605A /* watchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B50C2C01A5A3A9500D8605A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B50C2C11A5A3A9500D8605A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		3B50C2E61A5A3ACC00D8605A /* watchDemo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3B5024461A5BD3BA0014B64C /* DemoPlayer.swift */,
 				3B50C2EA1A5A3ACC00D8605A /* InterfaceController.swift */,
 				3B50C2EC1A5A3ACC00D8605A /* NotificationController.swift */,
 				3B50C2EE1A5A3ACC00D8605A /* GlanceController.swift */,
@@ -407,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5024471A5BD3BA0014B64C /* DemoPlayer.swift in Sources */,
 				3B50C2ED1A5A3ACC00D8605A /* NotificationController.swift in Sources */,
 				3B50C2EB1A5A3ACC00D8605A /* InterfaceController.swift in Sources */,
 				3B50C2EF1A5A3ACC00D8605A /* GlanceController.swift in Sources */,
