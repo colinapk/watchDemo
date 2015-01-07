@@ -11,7 +11,7 @@ import AVFoundation
 
 private var _instance = DemoPlayer()
 
-class DemoPlayer: NSObject {
+class DemoPlayer: NSObject ,AVAudioPlayerDelegate {
     private var myPlayer:AVAudioPlayer?
     private var curSongIndex = 1
     
@@ -32,11 +32,15 @@ class DemoPlayer: NSObject {
     }
     func playCurSong(){
         myPlayer = self.loadSound(audioFiles[curSongIndex])
+        myPlayer?.delegate = self
         myPlayer!.play()
     }
     func playNextSong(){
         changeCurSongIndex()
         playCurSong()
+    }
+    func stop(){
+        myPlayer?.stop()
     }
     private func changeCurSongIndex(){
         if(++curSongIndex > 2){
@@ -50,5 +54,9 @@ class DemoPlayer: NSObject {
         player.prepareToPlay()
         return player
     }
+    func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
+        
+    }
+    
    
 }

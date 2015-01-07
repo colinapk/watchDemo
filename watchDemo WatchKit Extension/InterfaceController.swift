@@ -42,6 +42,7 @@ class InterfaceController: WKInterfaceController {
     }
 
     @IBAction func onButtonClicked() {
+        DemoPlayer.shareInstance().stop()
         DemoPlayer.shareInstance().playNextSong()
         self.songCover.setImage(DemoPlayer.shareInstance().curSongCover())
     }
