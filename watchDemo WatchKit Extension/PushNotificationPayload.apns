@@ -1,13 +1,13 @@
 {
     "aps": {
-        "alert": "Test message",
+        "alert": "您该听歌了",
         "title": "Optional title",
         "category": "myCategory"
     },
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
+            "title": "播放",
             "identifier": "firstButtonAction"
         }
     ],
