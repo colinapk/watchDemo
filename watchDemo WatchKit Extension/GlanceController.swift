@@ -12,6 +12,7 @@ import Foundation
 
 class GlanceController: WKInterfaceController {
 
+    @IBOutlet weak var labelSongName: WKInterfaceLabel!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -21,6 +22,8 @@ class GlanceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        self.labelSongName.setText(DemoPlayer.shareInstance().curSongTitle())
+        
     }
 
     override func didDeactivate() {
